@@ -15,6 +15,8 @@
 		27104481201E3DBF003A0367 /* Window_ShopperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27104480201E3DBF003A0367 /* Window_ShopperTests.swift */; };
 		2710448C201E3DBF003A0367 /* Window_ShopperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710448B201E3DBF003A0367 /* Window_ShopperUITests.swift */; };
 		2710449B201E3E63003A0367 /* CustomizeTxt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2710449A201E3E63003A0367 /* CustomizeTxt.swift */; };
+		272B71C42020590E0031EC93 /* Wage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B71C32020590E0031EC93 /* Wage.swift */; };
+		272B71C620205D9B0031EC93 /* CustomizedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 272B71C520205D9B0031EC93 /* CustomizedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		2710448B201E3DBF003A0367 /* Window_ShopperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Window_ShopperUITests.swift; sourceTree = "<group>"; };
 		2710448D201E3DBF003A0367 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2710449A201E3E63003A0367 /* CustomizeTxt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizeTxt.swift; sourceTree = "<group>"; };
+		272B71C32020590E0031EC93 /* Wage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Wage.swift; sourceTree = "<group>"; };
+		272B71C520205D9B0031EC93 /* CustomizedButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomizedButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,7 @@
 		2710446A201E3DBF003A0367 /* Window-Shopper */ = {
 			isa = PBXGroup;
 			children = (
+				272B71C2202058FC0031EC93 /* Model */,
 				27104499201E3E41003A0367 /* Views */,
 				2710446B201E3DBF003A0367 /* AppDelegate.swift */,
 				2710446D201E3DBF003A0367 /* ViewController.swift */,
@@ -132,8 +137,17 @@
 			isa = PBXGroup;
 			children = (
 				2710449A201E3E63003A0367 /* CustomizeTxt.swift */,
+				272B71C520205D9B0031EC93 /* CustomizedButton.swift */,
 			);
 			name = Views;
+			sourceTree = "<group>";
+		};
+		272B71C2202058FC0031EC93 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				272B71C32020590E0031EC93 /* Wage.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -271,7 +285,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				2710449B201E3E63003A0367 /* CustomizeTxt.swift in Sources */,
+				272B71C42020590E0031EC93 /* Wage.swift in Sources */,
 				2710446E201E3DBF003A0367 /* ViewController.swift in Sources */,
+				272B71C620205D9B0031EC93 /* CustomizedButton.swift in Sources */,
 				2710446C201E3DBF003A0367 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -515,6 +531,7 @@
 				27104492201E3DBF003A0367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27104493201E3DBF003A0367 /* Build configuration list for PBXNativeTarget "Window-ShopperTests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +540,7 @@
 				27104495201E3DBF003A0367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		27104496201E3DBF003A0367 /* Build configuration list for PBXNativeTarget "Window-ShopperUITests" */ = {
 			isa = XCConfigurationList;
@@ -531,6 +549,7 @@
 				27104498201E3DBF003A0367 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
